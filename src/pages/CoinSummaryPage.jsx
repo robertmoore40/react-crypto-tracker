@@ -10,3 +10,6 @@ const CoinSummaryPage = () => {
       </div>
         );
     };
+
+    
+export default CoinSummaryPage;
