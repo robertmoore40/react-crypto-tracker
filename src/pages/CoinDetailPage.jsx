@@ -13,3 +13,6 @@ const CoinDetailPage = () => {
 
     const formatData = (data) => {
         return data.map((el) => {
+            return {
+                t: el[0],
+                y: el[1].toFixed(2),
