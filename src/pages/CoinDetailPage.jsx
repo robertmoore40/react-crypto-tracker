@@ -9,3 +9,4 @@ import coinGecko from "../apis/coinGecko";
 const CoinDetailPage = () => {
     const { id } = useParams();
     const [coinData, setCoinData] = useState({});
+    const [isLoading, setIsLoading] = useState(false);
