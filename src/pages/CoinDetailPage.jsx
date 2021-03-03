@@ -16,3 +16,6 @@ const CoinDetailPage = () => {
             return {
                 t: el[0],
                 y: el[1].toFixed(2),
+            };
+        });
+      };
