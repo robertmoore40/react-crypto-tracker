@@ -5,3 +5,7 @@ import HistoryChart from "../components/HistoryChart";
 import CoinData from "../components/CoinData";
 
 import coinGecko from "../apis/coinGecko";
+
+const CoinDetailPage = () => {
+    const { id } = useParams();
+    const [coinData, setCoinData] = useState({});
