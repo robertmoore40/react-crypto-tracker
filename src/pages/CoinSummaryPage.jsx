@@ -8,3 +8,5 @@ const CoinSummaryPage = () => {
         <AddCoin />
         <CoinList />
       </div>
+        );
+    };
