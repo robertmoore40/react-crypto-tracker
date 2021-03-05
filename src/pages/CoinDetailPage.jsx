@@ -22,13 +22,17 @@ const CoinDetailPage = () => {
 
       useEffect(() => {
         const fetchData = async () => {
-            setIsLoading(true);
-            const [day, week, year, detail] = await Promise.all([
-              coinGecko.get(`/coins/${id}/market_chart/`, {
-                params: {
-                    vs_currency: "usd",
-                    days: "1",
-                  },
-                }),
-                coinGecko.get(`/coins/${id}/market_chart/`, {
-                  params: {
+          setIsLoading(true);
+          const [day, week, year, detail] = await Promise.all([
+            coinGecko.get(`/coins/${id}/market_chart/`, {
+              params: {
+                vs_currency: "usd",
+                days: "1",
+              },
+            }),
+            coinGecko.get(`/coins/${id}/market_chart/`, {
+              params: {
+                vs_currency: "usd",
+                days: "7",
+              },
+            }),
