@@ -10,3 +10,6 @@ export const historyOptions = {
       },
       maintainAspectRatio: false,
       responsive: true,
+      scales: {
+        xAxes: [
+          {
