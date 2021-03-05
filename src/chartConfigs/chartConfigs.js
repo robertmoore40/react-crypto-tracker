@@ -8,3 +8,5 @@ export const historyOptions = {
     animation: {
         duration: 2000,
       },
+      maintainAspectRatio: false,
+      responsive: true,
