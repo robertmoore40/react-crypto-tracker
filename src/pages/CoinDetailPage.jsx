@@ -19,3 +19,6 @@ const CoinDetailPage = () => {
             };
         });
       };
+
+      useEffect(() => {
+        const fetchData = async () => {
