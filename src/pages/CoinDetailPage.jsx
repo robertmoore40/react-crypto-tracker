@@ -48,3 +48,5 @@ const CoinDetailPage = () => {
                   vs_currency: "usd",
                   ids: id,
                 },
+            }),
+        ]);
