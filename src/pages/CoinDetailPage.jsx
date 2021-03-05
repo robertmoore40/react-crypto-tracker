@@ -26,3 +26,6 @@ const CoinDetailPage = () => {
             const [day, week, year, detail] = await Promise.all([
               coinGecko.get(`/coins/${id}/market_chart/`, {
                 params: {
+                    vs_currency: "usd",
+                    days: "1",
+                  },
