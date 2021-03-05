@@ -50,3 +50,4 @@ const CoinDetailPage = () => {
                 },
             }),
         ]);
+        console.log(day);
