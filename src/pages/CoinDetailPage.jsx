@@ -29,3 +29,6 @@ const CoinDetailPage = () => {
                     vs_currency: "usd",
                     days: "1",
                   },
+                }),
+                coinGecko.get(`/coins/${id}/market_chart/`, {
+                  params: {
