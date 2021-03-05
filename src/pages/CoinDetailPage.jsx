@@ -43,3 +43,6 @@ const CoinDetailPage = () => {
                   days: "365",
                 },
               }),
+              coinGecko.get("/coins/markets/", {
+                params: {
+                  vs_currency: "usd",
