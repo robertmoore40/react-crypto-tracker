@@ -46,3 +46,5 @@ const CoinDetailPage = () => {
               coinGecko.get("/coins/markets/", {
                 params: {
                   vs_currency: "usd",
+                  ids: id,
+                },
