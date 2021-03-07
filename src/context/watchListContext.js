@@ -15,3 +15,6 @@ export const WatchListContextProvider = (props) => {
         useEffect(() => {
             localStorage.setItem("watchList", watchList);
           }, [watchList]);
+
+          const deleteCoin = (coin) => {
+            setWatchList(
