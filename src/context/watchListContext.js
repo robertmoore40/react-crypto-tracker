@@ -18,3 +18,5 @@ export const WatchListContextProvider = (props) => {
 
           const deleteCoin = (coin) => {
             setWatchList(
+                watchList.filter((el) => {
+                    return el !== coin;
