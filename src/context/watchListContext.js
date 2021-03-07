@@ -28,3 +28,5 @@ export const WatchListContextProvider = (props) => {
               const addCoin = (coin) => {
                 if (watchList.indexOf(coin) === -1) {
                     setWatchList([...watchList, coin]);
+                }
+            };
