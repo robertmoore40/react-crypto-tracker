@@ -20,3 +20,7 @@ export const WatchListContextProvider = (props) => {
             setWatchList(
                 watchList.filter((el) => {
                     return el !== coin;
+                })
+                );
+              };
+            
