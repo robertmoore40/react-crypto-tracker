@@ -33,3 +33,5 @@ export const WatchListContextProvider = (props) => {
 
             return (
                 <WatchListContext.Provider value={{ watchList, deleteCoin, addCoin }}>
+                       {props.children}
+    </WatchListContext.Provider>
