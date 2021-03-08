@@ -30,3 +30,5 @@ const Coin = ({ coin, deleteCoin }) => {
             e.preventDefault();
             deleteCoin(coin.id);
           }}
+          className="delete-icon far fa-times-circle text-danger"
+          ></i>
