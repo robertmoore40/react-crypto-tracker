@@ -20,3 +20,5 @@ const Coin = ({ coin, deleteCoin }) => {
           {coin.price_change_percentage_24h < 0 ? (
                  <i className="fas fa-sort-down align-middle mr-1"></i>
                  ) : (
+                    <i className="fas fa-sort-up align-middle mr-1"></i>
+                    )}
