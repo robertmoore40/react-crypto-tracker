@@ -24,3 +24,6 @@ const Coin = ({ coin, deleteCoin }) => {
                     )}
                        {coin.price_change_percentage_24h}
         </span>
+
+        <i
+          onClick={(e) => {
