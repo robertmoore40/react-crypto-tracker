@@ -27,3 +27,6 @@ const Coin = ({ coin, deleteCoin }) => {
 
         <i
           onClick={(e) => {
+            e.preventDefault();
+            deleteCoin(coin.id);
+          }}
