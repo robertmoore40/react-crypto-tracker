@@ -16,3 +16,5 @@ const Coin = ({ coin, deleteCoin }) => {
             : "text-success mr-2"
         }
       >
+            {" "}
+          {coin.price_change_percentage_24h < 0 ? (
