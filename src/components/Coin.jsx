@@ -34,3 +34,6 @@ const Coin = ({ coin, deleteCoin }) => {
           ></i>
             </li>
     </Link>
+      );
+    };
+    
