@@ -32,3 +32,5 @@ const Coin = ({ coin, deleteCoin }) => {
           }}
           className="delete-icon far fa-times-circle text-danger"
           ></i>
+            </li>
+    </Link>
