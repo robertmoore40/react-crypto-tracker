@@ -37,3 +37,4 @@ const Coin = ({ coin, deleteCoin }) => {
       );
     };
     
+    export default Coin;
