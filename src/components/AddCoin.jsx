@@ -49,3 +49,4 @@ const AddCoin = () => {
      );
     };
     
+    export default AddCoin;
