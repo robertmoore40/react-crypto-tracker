@@ -29,8 +29,9 @@ const AddCoin = () => {
         onClick={() => setIsActive(!isActive)}
         className="btn btn-primary dropdown-toggle"
         type="button"
-      ></button>
-       Add Coin
+      >
+        Add Coin
       </button>
-        <div className={isActive ? "dropdown-menu show" : "dropdown-menu"}>
+      <div className={isActive ? "dropdown-menu show" : "dropdown-menu"}>
         {availableCoins.map((el) => {
+          return (
