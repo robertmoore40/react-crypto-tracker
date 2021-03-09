@@ -22,3 +22,7 @@ const AddCoin = () => {
     addCoin(coin);
     setIsActive(false);
   };
+
+  return (
+    <div className="dropdown">
+      <button
