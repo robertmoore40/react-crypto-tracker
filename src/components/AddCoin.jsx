@@ -15,3 +15,6 @@ const AddCoin = () => {
     "litecoin",
     "eos",
     "okb",
+    "tezos",
+    "cardano",
+  ];
