@@ -40,3 +40,7 @@ const AddCoin = () => {
             href="#"
             className="dropdown-item"
           >
+                   {el}
+            </a>
+          );
+        })}
