@@ -10,3 +10,6 @@ const AddCoin = () => {
         "bitcoin",
         "ethereum",
         "ripple",
+        "tether",
+    "bitcoin-cash",
+    "litecoin",
