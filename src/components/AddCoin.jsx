@@ -17,3 +17,8 @@ const AddCoin = () => {
     "tezos",
     "cardano",
   ];
+
+  const handleClick = (coin) => {
+    addCoin(coin);
+    setIsActive(false);
+  };
