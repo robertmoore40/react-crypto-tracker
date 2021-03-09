@@ -32,3 +32,5 @@ const AddCoin = () => {
       ></button>
        Add Coin
       </button>
+        <div className={isActive ? "dropdown-menu show" : "dropdown-menu"}>
+        {availableCoins.map((el) => {
