@@ -7,3 +7,6 @@ const AddCoin = () => {
     const { addCoin } = useContext(WatchListContext);
 
     const availableCoins = [
+        "bitcoin",
+        "ethereum",
+        "ripple",
