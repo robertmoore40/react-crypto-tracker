@@ -5,3 +5,5 @@ const AddCoin = () => {
     const [isActive, setIsActive] = useState(false);
 
     const { addCoin } = useContext(WatchListContext);
+
+    const availableCoins = [
