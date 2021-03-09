@@ -44,3 +44,5 @@ const AddCoin = () => {
             </a>
           );
         })}
+         </div>
+    </div>
