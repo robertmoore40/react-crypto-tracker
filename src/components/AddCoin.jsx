@@ -13,3 +13,5 @@ const AddCoin = () => {
         "tether",
     "bitcoin-cash",
     "litecoin",
+    "eos",
+    "okb",
