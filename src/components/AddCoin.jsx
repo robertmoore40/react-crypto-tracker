@@ -46,3 +46,6 @@ const AddCoin = () => {
         })}
          </div>
     </div>
+     );
+    };
+    
