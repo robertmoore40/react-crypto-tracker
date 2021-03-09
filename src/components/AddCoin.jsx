@@ -30,3 +30,5 @@ const AddCoin = () => {
         className="btn btn-primary dropdown-toggle"
         type="button"
       ></button>
+       Add Coin
+      </button>
