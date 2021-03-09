@@ -35,3 +35,8 @@ const AddCoin = () => {
       <div className={isActive ? "dropdown-menu show" : "dropdown-menu"}>
         {availableCoins.map((el) => {
           return (
+            <a
+            onClick={() => handleClick(el)}
+            href="#"
+            className="dropdown-item"
+          >
