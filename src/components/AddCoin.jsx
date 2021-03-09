@@ -3,3 +3,5 @@ import { WatchListContext } from "../context/watchListContext";
 
 const AddCoin = () => {
     const [isActive, setIsActive] = useState(false);
+
+    const { addCoin } = useContext(WatchListContext);
