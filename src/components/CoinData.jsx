@@ -30,3 +30,6 @@ const CoinData = ({ data }) => {
               <span>{data.high_24h}</span>
               </div>
           </div>
+
+          <div className="col-sm">
+            <div className="d-flex flex-column">
