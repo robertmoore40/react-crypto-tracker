@@ -18,3 +18,6 @@ const CoinData = ({ data }) => {
               <span>{data.total_supply}</span>
             </div>
           </div>
+
+          <div className="col-sm">
+            <div className="d-flex flex-column">
