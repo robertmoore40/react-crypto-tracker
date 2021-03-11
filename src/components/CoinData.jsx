@@ -11,3 +11,7 @@ const CoinData = ({ data }) => {
               <span>{data.market_cap}</span>
               </div>
             <hr />
+            <div className="d-flex flex-column">
+              <span className="text-muted coin-data-category">
+                Total Supply
+              </span>
