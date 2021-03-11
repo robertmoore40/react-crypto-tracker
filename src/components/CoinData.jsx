@@ -33,3 +33,6 @@ const CoinData = ({ data }) => {
 
           <div className="col-sm">
             <div className="d-flex flex-column">
+            <span className="text-muted coin-data-category">
+                Circulating Supply
+              </span>
