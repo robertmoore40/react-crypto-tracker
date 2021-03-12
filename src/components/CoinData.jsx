@@ -44,3 +44,5 @@ const CoinData = ({ data }) => {
               <span>{data.low_24h}</span>
               </div>
           </div>
+          </div>
+      );
