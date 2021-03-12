@@ -26,3 +26,5 @@ const CoinList = () => {
 
           if (watchList.length > 0) {
             fetchData();
+        } else setCoins([]);
+    }, [watchList]);
