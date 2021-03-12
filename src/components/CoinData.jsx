@@ -36,3 +36,5 @@ const CoinData = ({ data }) => {
             <span className="text-muted coin-data-category">
                 Circulating Supply
               </span>
+              <span>{data.circulating_supply}</span>
+            </div>
