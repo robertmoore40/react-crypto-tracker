@@ -39,3 +39,6 @@ const CoinList = () => {
                  {coins.map((coin) => {
           return <Coin key={coin.id} coin={coin} deleteCoin={deleteCoin} />;
         })}
+         </ul>
+    );
+  };
