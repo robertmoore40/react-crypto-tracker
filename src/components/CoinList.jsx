@@ -36,3 +36,6 @@ const CoinList = () => {
     
         return (
             <ul className="coinlist list-group mt-2">
+                 {coins.map((coin) => {
+          return <Coin key={coin.id} coin={coin} deleteCoin={deleteCoin} />;
+        })}
