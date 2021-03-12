@@ -38,3 +38,7 @@ const CoinData = ({ data }) => {
               </span>
               <span>{data.circulating_supply}</span>
             </div>
+            <hr />
+            <div className="d-flex flex-column">
+              <span className="text-muted coin-data-category">low 24h</span>
+              <span>{data.low_24h}</span>
