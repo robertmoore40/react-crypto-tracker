@@ -23,3 +23,6 @@ const CoinList = () => {
             setCoins(response.data);
             setIsLoading(false);
           };
+
+          if (watchList.length > 0) {
+            fetchData();
