@@ -13,3 +13,6 @@ const CoinList = () => {
   useEffect(() => {
     const fetchData = async () => {
         setIsLoading(true);
+
+        const response = await coinGecko.get("/coins/markets/", {
+            params: {
