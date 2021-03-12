@@ -45,3 +45,5 @@ const CoinList = () => {
 
   return <div>{renderCoins()}</div>;
 };
+
+export default CoinList;
