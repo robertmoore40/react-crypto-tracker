@@ -34,3 +34,5 @@ const CoinList = () => {
             return <div>Loading...</div>;
         }
     
+        return (
+            <ul className="coinlist list-group mt-2">
