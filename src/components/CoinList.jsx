@@ -3,3 +3,6 @@ import coinGecko from "../apis/coinGecko";
 
 import { WatchListContext } from "../context/watchListContext";
 import Coin from "./Coin";
+
+const CoinList = () => {
+    const [coins, setCoins] = useState([]);
