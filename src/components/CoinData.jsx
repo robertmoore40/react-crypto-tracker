@@ -51,3 +51,5 @@ const CoinData = ({ data }) => {
   
   return <div>{renderData()}</div>;
 };
+
+export default CoinData;
