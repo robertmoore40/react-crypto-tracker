@@ -28,3 +28,6 @@ const CoinList = () => {
             fetchData();
         } else setCoins([]);
     }, [watchList]);
+
+    const renderCoins = () => {
+        if (isLoading) {
