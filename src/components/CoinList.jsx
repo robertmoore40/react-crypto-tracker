@@ -42,3 +42,6 @@ const CoinList = () => {
          </ul>
     );
   };
+
+  return <div>{renderCoins()}</div>;
+};
