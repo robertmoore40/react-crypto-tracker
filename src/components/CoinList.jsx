@@ -19,3 +19,7 @@ const CoinList = () => {
                 vs_currency: "usd",
                 ids: watchList.join(","),
               },
+            });
+            setCoins(response.data);
+            setIsLoading(false);
+          };
