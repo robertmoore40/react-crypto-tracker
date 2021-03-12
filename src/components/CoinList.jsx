@@ -11,3 +11,5 @@ const CoinList = () => {
 
   console.log(watchList);
   useEffect(() => {
+    const fetchData = async () => {
+        setIsLoading(true);
