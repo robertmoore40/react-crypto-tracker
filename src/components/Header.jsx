@@ -5,3 +5,6 @@ const Header = () => {
         <div>
         <h1 className="text-center text-warning mt-3 mb-4">Coinstar</h1>
       </div>
+       );
+    };
+    
