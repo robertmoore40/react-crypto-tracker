@@ -11,3 +11,5 @@ const HistoryChart = ({ data }) => {
     
   const determineTimeFormat = () => {
     switch (timeFormat) {
+        case "24h":
+            return day;
