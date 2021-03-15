@@ -13,3 +13,5 @@ const HistoryChart = ({ data }) => {
     switch (timeFormat) {
         case "24h":
             return day;
+            case "7d":
+                return week;
