@@ -15,3 +15,5 @@ const HistoryChart = ({ data }) => {
             return day;
             case "7d":
                 return week;
+                case "1y":
+                    return year;
