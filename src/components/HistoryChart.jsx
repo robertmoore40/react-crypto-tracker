@@ -19,3 +19,5 @@ const HistoryChart = ({ data }) => {
                     return year;
                     default:
                         return day;
+                    }
+                };
