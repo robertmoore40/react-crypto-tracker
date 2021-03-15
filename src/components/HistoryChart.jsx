@@ -5,3 +5,5 @@ import { historyOptions } from "../chartConfigs/chartConfigs";
 
 const HistoryChart = ({ data }) => {
     const chartRef = useRef();
+    const { day, week, year, detail } = data;
+    const [timeFormat, setTimeFormat] = useState("24h");
