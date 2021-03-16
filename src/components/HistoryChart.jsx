@@ -22,5 +22,5 @@ const HistoryChart = ({ data }) => {
 
   useEffect(() => {
     if (chartRef && chartRef.current && detail) {
-      console.log("yeah");
+      console.log("confirmed");
       const chartInstance = new Chartjs(chartRef.current, {
