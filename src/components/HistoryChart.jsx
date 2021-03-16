@@ -42,3 +42,6 @@ const HistoryChart = ({ data }) => {
       });
     }
   });
+
+  const renderPrice = () => {
+    if (detail) {
