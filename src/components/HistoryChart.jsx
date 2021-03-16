@@ -55,3 +55,6 @@ const HistoryChart = ({ data }) => {
               : "text-success my-0"
             }
             >
+               {detail.price_change_percentage_24h.toFixed(2)}%
+          </p>
+        </>
