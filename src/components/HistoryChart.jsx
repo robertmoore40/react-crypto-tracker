@@ -19,3 +19,6 @@ const HistoryChart = ({ data }) => {
         return day;
     }
   };
+
+  useEffect(() => {
+    if (chartRef && chartRef.current && detail) {
