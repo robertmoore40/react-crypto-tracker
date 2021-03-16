@@ -81,3 +81,9 @@ const HistoryChart = ({ data }) => {
           onClick={() => setTimeFormat("7d")}
           className="btn btn-outline-secondary btn-sm mx-1"
         ></button>
+           7d
+        </button>
+        <button
+          onClick={() => setTimeFormat("1y")}
+          className="btn btn-outline-secondary btn-sm"
+        ></button>
