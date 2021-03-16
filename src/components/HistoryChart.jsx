@@ -61,3 +61,7 @@ const HistoryChart = ({ data }) => {
       );
     }
   };
+
+  return (
+    <div className="bg-white border mt-2 rounded p-3">
+      <div>{renderPrice()}</div>
