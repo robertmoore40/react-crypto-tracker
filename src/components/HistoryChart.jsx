@@ -24,3 +24,6 @@ const HistoryChart = ({ data }) => {
     if (chartRef && chartRef.current && detail) {
       console.log("confirmed");
       const chartInstance = new Chartjs(chartRef.current, {
+        type: "line",
+        data: {
+          datasets: [
