@@ -27,3 +27,6 @@ const HistoryChart = ({ data }) => {
         type: "line",
         data: {
           datasets: [
+            {
+              label: `${detail.name} price`,
+              data: determineTimeFormat(),
