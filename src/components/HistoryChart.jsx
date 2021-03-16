@@ -38,3 +38,5 @@ const HistoryChart = ({ data }) => {
         },
         options: {
           ...historyOptions,
+        },
+      });
