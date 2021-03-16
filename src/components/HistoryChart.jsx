@@ -92,3 +92,5 @@ const HistoryChart = ({ data }) => {
     </div>
   );
 };
+
+export default HistoryChart;
