@@ -53,3 +53,5 @@ const HistoryChart = ({ data }) => {
               detail.price_change_24h < 0
               ? "text-danger my-0"
               : "text-success my-0"
+            }
+            >
